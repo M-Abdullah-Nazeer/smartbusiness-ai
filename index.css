@@ -1,0 +1,630 @@
+.Loginbutton{
+    color: #4338CA;
+    background-color: #EEF2FF;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.switch22 {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch22 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider22 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 5px;
+  }
+  
+  .slider22:before {
+    position: absolute;
+    content: "OFF";
+    height: 26px;
+    width: 50%;
+    left: 4px;
+    bottom: 4px;
+    background-color: #3903ff;
+    text-align: center;
+    line-height: 26px;
+    transition: 0.4s;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .text-input22 {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    font-size: 1rem;
+    background-color: #ffffff !important;
+  }
+  .text-input22:focus {
+    border: 1px solid #015eb4; /* Changes color on focus */
+  }
+  
+  .text-input22 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    /* border-bottom: 2px solid #007bff;  */
+    outline: none;
+    font-size: 1rem;
+    border-radius: 9px;
+  }
+  .fonrt{
+    font-size: 55px;
+  }
+  .text-input22::placeholder {
+    color: #d2d6e9; /* Changes color on focus */
+  }
+  input:checked + .slider22 {
+    background-color: #6d6d6d;
+  }
+  .plusicon{
+    background-color: #3903FF; text-decoration: none; border-radius: 10px; padding: 10px 20px; color: white;
+  }
+  input:checked + .slider22:before {
+    transform: translateX(40px);
+    content: "ON";
+    background-color: #555555;
+  }
+  .selecter76 {
+    border-radius: 7px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e4e4e4 !important;
+    background-color: #ffffff !important;
+    color: #9599B0;
+  }
+.getbtn{
+    color: #FFFFFF;
+    background-color: #4F46E5 !important;
+    padding: 10px 15px;
+    /* font-size: 18px; */
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.fonterchange{
+    font-size: 35px;
+}
+.toptext{
+    color: black;
+    font-size: 68px;
+    font-weight: 700;
+}
+.gradetext{
+    color: #4f46e5;
+    font-size: 68px;
+    font-weight: 800;
+}
+.toppmargin{
+    padding-top: 110px;
+}
+.gradeinttext{
+    /* background: linear-gradient(90deg, #FF00AC 0%, #FFE207 100%); */
+    /* background: linear-gradient(90deg, #FF00AC 0%, #FFE207 100%); */
+
+    background: -webkit-linear-gradient(250deg , #FFE207 , #FFE207 , #FFE207,  #FF00AC ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+.arrowtop{
+    width: 40px !important;
+}
+.freetrypic{
+    width: 140px !important;
+}
+.toparrorpad{
+    margin-top: 40px !important ;
+}
+.lineswavespic{
+    width: 100px !important;
+}
+.demotext{
+    color: #374151; text-transform: uppercase;
+    /* margin-top: 7px; */
+}
+.trainedon{
+    color: #ffffff; border-radius: 50px; background: linear-gradient(310.81deg, #A000FF 24.7%, #FF006F 81.41%);
+                   padding: 7px 12px; text-transform: uppercase;
+                   display: inline-block;
+                   font-size: 13px;
+                   margin-top: 7px;
+}
+.input-container {
+    position: relative;
+    width: 380px;
+    margin-top: 25px;
+}
+
+
+.price-grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-cont{
+    border-radius: 15px;
+    background-color: white;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 20px 20px 20px 55px; /* Add padding on the left for the icon */
+    border-radius: 50px;
+    border: 2px solid #2f2f3000;
+    outline: none;
+
+    font-size: 16px;
+}
+
+.input-container input:focus {
+    border-color: #007bff; /* Optional: Change border color on focus */
+}
+
+.input-container .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+}
+.callbtn{
+    background: linear-gradient(140deg, #A000FF 0%, #FF006F 100%);
+    padding: 15px 25px ;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 22px;
+    display: block;
+    width: 380px;
+    margin-top: 25px;
+}
+.smalltext{
+    color: #374151; font-size: 12px; margin-bottom: 0px;
+}
+.newcard{
+    background: none !important;
+    border: none !important;
+}
+.colorcard{
+    background-color: #EEF2FF !important;
+    padding: 30px !important;
+    border: none !important;
+    height: 100% !important;
+}
+.textcolor{
+    background: -webkit-linear-gradient(180deg, #A000FF 0%, #FF006F 100%);
+    /* background: linear-gradient(180deg, #A000FF 0%, #FF006F 100%); */
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+.textcolor22{
+    /* background: -webkit-linear-gradient(180deg, #A000FF 0%, #FF006F 100%); */
+    /* background: linear-gradient(180deg, #A000FF 0%, #FF006F 100%); */
+
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-size: 60px;
+    color: white;
+}
+.bluecard{
+    background-color: #4F46E5 !important;
+    padding: 30px !important;
+    border: none !important;
+}
+.cardsmall{
+    padding: 5px;
+    margin: 0px 3px;
+     border-radius: 6px;
+      font-size: 10px;
+       background-color: white;
+}
+.humanlike{
+    background: #1F6FEB1C; font-size: smaller; border-radius: 50px; color: #1F6FEB; padding: 12px 22px;
+}
+.soundtext{
+    /* background: -webkit-linear-gradient(180deg, #A000FF 0%, #FF006F 100%); */
+    background: linear-gradient(90deg, #A000FF 0%, #FF006F 100%),
+linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Step1{
+    background-color: #4f46e5;
+    color: white;
+    padding: 8px 16px ;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.Step2{
+    background-color: #cac7f7;
+    color: white;
+    padding: 8px 16px ;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.newinp::placeholder{
+    font-size: 22px;
+}
+.newinp{
+    width: 100% !important;
+    padding: 20px 20px 20px 25px !important; /* Add padding on the left for the icon */
+    border-radius: 10px !important;
+    border: 2px solid #2f2f3000 !important;
+    outline: none !important;
+    background: #f4f4f5 !important;
+    font-size: 16px !important;
+    margin-top: 12px !important;
+}
+.newinp:focus{
+    border-color: #007bff;
+}
+.textbox_box{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background: #f4f4f5;
+    color: #7e7e7e !important;
+    margin: 10px auto;
+    font-size: 18px;
+    height: 80px;
+}
+.savebtn{
+    font-size: 14px !important;
+    padding: 12px 20px !important;
+    background: linear-gradient(180deg, #A000FF 0%, #FF006F 100%) !important;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+}
+.trybtn{
+    background: linear-gradient(90deg, #A000FF 0%, #FF006F 100%);
+    box-shadow: 0px 5px 0px 0px #FFFFFF0F inset;
+border-radius: 15px;
+padding: 15px;
+display: inline-block;
+color: #CECAEC;
+border: none;
+}
+
+.padd-cont1{
+    margin: 60px 20% 2% 20% !important;
+}
+
+.bg-grid-1{
+    position: absolute;
+    top: 2%;
+    width: 70%;
+    left: 15%;
+    height: auto;
+}
+
+.bg-grad{
+    background: linear-gradient(0deg, rgba(168,20,254,1) 0%, rgba(245,0,126,1) 100%);
+}
+
+
+.ponki{
+    position: absolute;
+    top: -10%;
+    left: 42%;
+    height: 100px;
+    width: auto;
+
+}
+.abd-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  padding: 50px;
+  margin-top: 100px;
+
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+}
+.abd-grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+  padding: 50px 100px;
+  margin-top: 100px;
+
+p{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #9599B0 !important;
+}
+
+.grid-cont{
+    background-color: white;
+    padding: 30px 30px ;
+    border-radius: 15px;
+}
+
+}
+
+
+.abd-grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  padding: 100px;
+  margin-top: 100px;
+}
+
+.righti input{
+
+padding: 30px 30px !important;
+border-radius: 40px;
+background-color: white;
+box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.345);
+
+}
+
+.lefi{
+
+}
+
+.righti{
+
+
+
+    color: black;
+label{
+    font-size: 1em;
+    color: black;
+    font-weight: 900;
+    margin-left: 20px;
+}
+p{
+    font-size: 0.7em;
+    margin-left: 20px;
+}
+
+}
+.padd-cont2{
+    padding: 1% 5% !important;
+}
+
+@media only screen and (max-width:768px){
+
+    .abd-grid2{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 50px;
+      padding: 100px;
+      margin-top: 100px;
+    }
+    
+    .price-grid{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .abd-grid{
+        
+        grid-template-columns: 1fr 1fr ;
+        grid-gap:10px;
+    
+    padding: 10px;
+    
+    margin-top: 100px;
+    
+    }
+    .abd-grid3{
+        
+        grid-template-columns: 1fr 1fr ;
+        grid-gap:10px;
+    
+    padding: 10px;
+    
+    margin-top: 100px;
+    
+    }
+    .input-container input {
+        width: auto !important;
+        padding: 10px 10px 10px 35px; /* Add padding on the left for the icon */
+        
+    }
+
+}
+@media only screen and (max-width:576px){
+    .abd-grid2{
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-gap: 50px;
+    padding: 10px 10px;
+     font-size: 0.7em;
+    }
+    .padd-cont1{
+        margin: 60px 1% 2% 1% !important;
+    }
+.padd-cont2{
+    padding: 2% 2% !important;
+}
+    .abd-grid{
+        
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+    
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    }
+    .abd-grid3{
+        
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+    
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    }
+    .toptext{
+        color: black;
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .gradetext{
+        color: #4f46e5;
+        font-size: 38px;
+        font-weight: 800;
+    }
+    .ponki{
+        position: absolute;
+        top: -18%;
+        left: 40%;
+        height: 70px;
+        width: auto;
+    
+    }
+    .price-grid{
+
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .callbtn{
+        
+        width: 300px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 1.5em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background: #0D25F7;
+    border-radius: 50px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5em;
+    width: 1.5em;
+    inset: 0;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .switch input:checked + .slider {
+    background: #0974f1;
+  }
+  
+  .switch input:focus + .slider {
+    box-shadow: 0 0 1px #0974f1;
+  }
+  
+  .switch input:checked + .slider:before {
+    transform: translateX(1.6em);
+  }
+  .signbtn{
+    width: 100% !important;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0D25F7;
+  }
+.padewse{
+    color: blue; background-color: #D2D6E9; border-radius: 15px; padding: 10px 15px; margin: 0 10px;
+}
+  @media screen and (max-width: 680px) {
+    .righti input{
+
+        padding: 5px 5px !important;
+        border-radius: 40px;
+        background-color: white;
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.345);
+        
+        }
+        .padewse{
+            color: blue; background-color: #D2D6E9; border-radius: 15px; padding: 2px 3px; margin: 0 10px;
+        }
+        .fonterchange{
+            font-size: 15px !important;
+        }
+  }

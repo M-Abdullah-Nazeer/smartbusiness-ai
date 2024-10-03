@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+      @font-face {
+  font-family: "roboto";
+  src: url(./assets/font/Roboto/Roboto-Regular.ttf);
+}
+body{
+    /* width: 100vw !important; */
+    overflow-x: hidden !important;
+    padding: 15px;
+}
+.robotofont {
+  font-family: "roboto";
+}
+  @font-face {
+  font-family: " acre";
+  src: url(./assets/font/Poppins/Poppins-Bold.ttf);
+}
+
+.poppinsfont {
+  font-family: " acre";
+}
+@font-face {
+  font-family: " acre22";
+  src: url(./assets/font/Poppins/Poppins-Regular.ttf);
+}
+
+.poppinslight {
+  font-family: " acre22";
+}
+  @font-face {
+  font-family: "interbold";
+  src: url(./assets/font/Inter/Inter_18pt-Bold.ttf);
+}
+
+.Interfonts {
+  font-family: "interbold";
+}
+  @font-face {
+  font-family: "interlight";
+  src: url(./assets/font/Inter/Inter_18pt-Regular.ttf);
+}
+
+.Interfontslight {
+  font-family: "interlight";
+}
+  </style>
+</head>
+<body class="Interfontslight">
+    <section style="background-color: #ffffff; height: 100vh;">
+
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="navBar">
+                <div class="navHeadernew">
+                  <span class="nSpan1"></span>
+                  <span class="nSpan2"></span>
+                  <img src="./assets/images/newsetting.png" alt="" />
+                   <select style="border-radius: 7px;">
+                    <option selected>Onboarding</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <a href="./home63.html" class="text-decoration-none">
+                  <span class="nSpan3">+</span>
+                  </a>
+                </div>
+                <div class="profile"
+                  <p class="username"> User Name </p>
+                  <!-- <p class="username"> User Name</p> -->
+                  <img
+                    src="./assets/images/blueuser.png"
+                    class=" dropdown-toggle"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    alt=""
+                  />
+                  <ul
+                    class="dropdown-menu dropper mt-1"
+                    style=""
+                  >
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Custom App</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Log Out</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <div class="container " style="padding-top: 40px;">
+            <div class="row">
+                <div  class="col-md-3">
+                
+                    <div class=" mobpadder" >
+                        <img src="assets/images/agentblack.png" class="img-fluid" alt="" srcset="">
+                        <span class="mx-3  "  >
+                            Agents
+                        </span>
+                    </div>
+                    <div class="" style="margin-top: 20px;">
+                        <img src="assets/images/newsetting.png" class="img-fluid" alt="" srcset="">
+                        <span class="mx-3 " style="color: #979797;">
+                            Settings
+                        </span>
+                    </div>
+                    <div class="" style="margin-top: 20px;">
+                        <img src="assets/images/support.png" class="img-fluid" alt="" srcset="">
+                        <span class="mx-3 " style="color: #979797;">
+                            Support
+                        </span>
+                    </div>
+                    <div class="" style="margin-top: 20px;">
+                        <img src="assets/images/youtube.png" class="img-fluid" alt="" srcset="">
+                        <span class="mx-3 " style="color: #979797;">
+                            Tutorials
+                        </span>
+                    </div>
+                   
+            
+                </div>
+                <div class="col-md-7 px-0 mt-md-1 mt-5 ">
+                   
+                    <div class="d-md-flex">
+                        <div class="upload-button align-content-center">
+                            <!-- <button type="button" class="btn btn-primary rounded-circle" style="width: 300px; height: 300px;">
+                                <i class="fas fa-plus"></i>
+                            </button> -->
+                            <input type="file"  class="upload-input choosefile" accept="image/*">
+                        </div>
+                    <div class="mt-md-1 mt-4 centerview">
+                        <img src="assets/images/blueuser.png" alt="" srcset="">
+                        <div class="Interfonts mt-1" style="color: #0e0e0e;">
+                            Sam Rivera
+                         </div>
+                         <button type="button" class="adderbtn">
+                            outbound
+                         </button>
+                         <div class="d-flex justify-content-center mt-3">
+                            <img src="assets/images/dlted.png" class="mx-2" alt="">
+                            <img src="assets/images/tabler_copy.png" class="mx-2" alt="">
+                         </div>
+                        </div>
+                </div>
+            </div>
+                </div>
+        
+        
+   
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const advancedSettings = document.querySelector('[data-bs-toggle="collapse"]');
+            const advancedSettingsIcon = document.getElementById('advancedSettingsIcon');
+    
+            advancedSettings.addEventListener('click', function () {
+                const isExpanded = advancedSettings.getAttribute('aria-expanded') === 'true';
+                advancedSettingsIcon.classList.toggle('bi-chevron-down', !isExpanded);
+                advancedSettingsIcon.classList.toggle('bi-chevron-up', isExpanded);
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleSwitch = document.getElementById('toggleSwitch');
+        const toggleTextarea = document.getElementById('toggleTextarea');
+
+        toggleSwitch.addEventListener('change', function () {
+            if (toggleSwitch.checked) {
+                toggleTextarea.style.display = 'block';
+            } else {
+                toggleTextarea.style.display = 'none';
+            }
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const toggleSwitch22 = document.getElementById('toggleSwitch22');
+        const toggleTextarea22 = document.getElementById('toggleTextarea22');
+
+        toggleSwitch22.addEventListener('change', function () {
+            if (toggleSwitch22.checked) {
+                toggleTextarea22.style.display = 'block';
+            } else {
+                toggleTextarea22.style.display = 'none';
+            }
+        });
+    });
+</script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+</body>
+</html>

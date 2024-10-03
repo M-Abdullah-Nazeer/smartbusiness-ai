@@ -1,0 +1,233 @@
+/* blog page css start here  */
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  background-color: #edf1ff;
+}
+.emptyDiv {
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #8e91a7;
+}
+.cardDate {
+  text-decoration: underline;
+  color: black;
+  font-size: 14px;
+}
+.fonterchange{
+  font-size: 35px;
+}
+.Loginbutton {
+  color: #4338ca;
+  background-color: #eef2ff;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.getbtn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  padding: 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.gryText {
+  color: #8e91a7;
+  padding-top: 20px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+.navHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 300px;
+  width: 250px;
+}
+.navHeadernew {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 300px;
+  width: 280px;
+  /* border-radius: 10px; */
+}
+.nSpan1 {
+  width: 36px;
+  height: 34px;
+  border-radius: 8px !important;
+  background-color: #4f47e6;
+}
+.nSpan3 {
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 8px !important;
+  background-color: #4f47e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 20px;
+}
+.nSpan2 {
+  width: 1px;
+  background-color: black;
+  height: 30px;
+}
+.blueText {
+  background-color: #3903ff;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: max-content;
+  padding: 6px 16px;
+  color: white;
+}
+.inputB {
+  background-color: #3903ff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: white;
+}
+.inputB:focus {
+  background-color: #3903ff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: white;
+  box-shadow: none;
+}
+.inputB::placeholder {
+  text-align: end;
+  color: white;
+}
+.footerSection {
+  margin-top: 100px;
+  background-color: #080917;
+  color: white;
+  padding: 60px 0 120px 0;
+}
+.socialIcon:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+.footerBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 30px;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* blog page css end here */
+
+/* Contact Us page css start here */
+.mainHeading {
+  font-size: 39.5px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: center;
+}
+.contactForm {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 40px;
+  margin-top: 50px;
+}
+.contactForm h5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.6px;
+  text-align: left;
+}
+.contactForm p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+}
+.formInput {
+  background-color: #edf1ff;
+  height: 52px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 30px;
+}
+.formInput:focus {
+  background-color: #edf1ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+.contactForm textarea {
+  background-color: #edf1ff;
+  border: none;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.contactForm textarea:focus {
+  background-color: #edf1ff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: none;
+}
+.contactForm button {
+  margin-top: 20px;
+  background-color: #3903ff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: white;
+}
+.contactForm button:hover,
+.contactForm button:active,
+.contactForm button:focus {
+  margin-top: 20px;
+  background-color: #3903ff !important;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: white !important;
+}
+.signbtn{
+  width: 100% !important;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: #0D25F7;
+}
+/* Contact Us page css end here  */
+@media screen and (max-width: 768px) {
+  .footerBox {
+    justify-content: space-between;
+  }
+  .topText {
+    font-size: 12px;
+  }
+  .topText1 {
+    font-size: 16px;
+  }
+  .contactForm p {
+    font-size: 14px;
+  }
+  .fonterchange{
+    font-size: 15px !important;
+}
+}
